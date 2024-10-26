@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/setup.css" />
+    <link rel="stylesheet" href="assets/css/single.css" />
+    <script src="assets/javaScript/loader.js"></script>
+
+    <title>Buy Ticket</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="inner-header">
+          <div class="inner-header-right">
+            <div class="md-btn">
+              <button id="opn-md">
+                <img src="assets/images/svg/menu.svg" alt="" />
+              </button>
+            </div>
+            <div class="inner-header-right_logo">
+              <div class="inner-header-right_logo_place">
+                <a href="index.html"
+                  ><img src="assets/images/logo.png" alt="logo"
+                /></a>
+              </div>
+            </div>
+            <div class="inner-header-right_menu">
+              <nav class="xl-menu">
+                <ul>
+                  <li><a href="index.html" class="active">Shows</a></li>
+                  <li><a href="contact.html">Contact and Support</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="archive.html">Archive</a></li>
+                </ul>
+              </nav>
+              <div class="md-menu-back"></div>
+              <nav class="md-menu">
+                <div class="md-menu-head">
+                  <div>
+                    <button id="closeMd">
+                      <img src="assets/images/svg/close.svg" alt="" />
+                    </button>
+                  </div>
+                  <div class="user-action">
+                    <div class="user-image-icon">
+                      <img src="assets/images/svg/user-white.svg" alt="" />
+                    </div>
+                    <a href="" id="openUserAction">Login / Register</a>
+                  </div>
+                </div>
+                <div class="md-menu-list">
+                  <ul>
+                    <li>
+                      <a href="index.html">
+                        <img src="assets/images/svg/all.svg" alt="" />
+                        <span>Shows</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="contact.html">
+                        <img src="assets/images/svg/contact.svg" alt="" />
+                        <span>Contact And Support</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about.html">
+                        <img src="assets/images/svg/megaphone.svg" alt="" />
+                        <span>About Us</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="archive.html">
+                        <img src="assets/images/svg/all.svg" alt="" />
+                        <span>Archive</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="track.html">
+                        <img src="assets/images/svg/ticket-black.svg" alt="" />
+                        <span>Tracking</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="inner-header-left">
+            <div class="inner-header-left_track-action">
+              <a href="track.html">
+                <img src="assets/images/svg/ticket.svg" alt="ticket" />
+                Track order
+              </a>
+            </div>
+            <div class="inner-header-left_user-action">
+              <a href="" id="openUserAction">
+                <img src="assets/images/svg/user.svg" alt="user" />
+                <span>Login / Register</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start single page step 2 -->
+    <section class="single-page single-page-2">
+      <div class="container">
+        <!-- start road map  -->
+        <div class="road">
+          <div class="state active">
+            <div class="state-number">1</div>
+            <div class="state-title">Choice Sans</div>
+          </div>
+          <div class="state active">
+            <div class="state-number">2</div>
+            <div class="state-title">Choice Seat</div>
+          </div>
+          <div class="state">
+            <div class="state-number">3</div>
+            <div class="state-title">Reservation And Payment</div>
+          </div>
+          <div class="state">
+            <div class="state-number">4</div>
+            <div class="state-title">Receive Tickets</div>
+          </div>
+        </div>
+        <!-- end road map  -->
+        <div class="title-ticket">
+          <a href="">
+            <h2>Romantic comedy show Yaqut square Along with live music</h2>
+          </a>
+        </div>
+        <!-- start ticket information  -->
+        <div class="information-r">
+          <div class="information-r_item">
+            <div class="information-r_item-icon">
+              <img src="assets/images/svg/calendar-black.svg" alt="" />
+            </div>
+            <div class="information-r_item-tx">
+              <span>
+                <h5>Time :</h5>
+              </span>
+              <span>
+                <p>October 4, 2020 to February 16, 2023.</p>
+              </span>
+            </div>
+          </div>
+          <div class="information-r_item">
+            <div class="information-r_item-icon">
+              <img src="assets/images/svg/location.svg" alt="" />
+            </div>
+            <div class="information-r_item-tx">
+              <span>
+                <h5>Location :</h5>
+              </span>
+              <span>
+                <p>City Number 1</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- end ticket information  -->
+        <!-- start ticket price and change sans btn  -->
+        <div class="information-b">
+          <div class="change-sans" id="changeSans">
+            <div class="change-sans-r">
+              <div class="icon">
+                <img src="assets/images/svg/ticket-black.svg" alt="" />
+              </div>
+              <span>February 16, 2023</span>
+            </div>
+            <div class="change-sans-l">
+              <span>Change Sans</span>
+            </div>
+          </div>
+          <div class="cost">
+            <div class="cost-r">
+              <div class="icon">
+                <img src="assets/images/svg/chart.svg" alt="" />
+              </div>
+              <span>Price: 300,000 to 500,000 $</span>
+            </div>
+          </div>
+        </div>
+        <!-- end ticket price and change sans btn  -->
+        <!-- start price range filter -->
+        <div class="range-slider-main">
+          <div class="range-slider" id="facet-price-range-slider">
+            <input
+              name="range-1"
+              value="300000"
+              min="300000"
+              max="500000"
+              step="1"
+              type="range"
+            />
+
+            <input
+              name="range-2"
+              value="500000"
+              min="300000"
+              max="500000"
+              step="1"
+              type="range"
+            />
+          </div>
+        </div>
+        <!-- end price range filter -->
+        <!-- start tickets price show -->
+        <div class="seat-place"></div>
+        <div class="selection-summary">
+          <div class="selection-summary-inner">
+            <div class="item">
+              <img src="assets/images/svg/tag.svg" alt="" />
+              <span>0</span>
+              <span>Tickets</span>
+            </div>
+            <div class="item">
+              <span>Total Price :</span>
+              <span>10</span><span>$</span>
+            </div>
+          </div>
+        </div>
+        <!-- end tickets price show -->
+        <div class="submit-step">
+          <a href="single-step3.html">Reserve And Continue</a>
+        </div>
+        <!-- start change sans modal  -->
+        <div class="ticket-select_back"></div>
+        <div class="ticket-select">
+          <div class="ticket-select-inner">
+            <div class="ticket ticket-soldout">
+              <div class="ticket-inner">
+                <div class="time">
+                  <h3>Sunday</h3>
+                  <h4>Jun 24</h4>
+                  <h5>16 : 00</h5>
+                </div>
+                <div class="status">
+                  <div class="ticket-status">
+                    <img src="assets/images/svg/ticket-black.svg" alt="" />
+                    <span>
+                      Status :
+                      <span class="normal">
+                        Sold Out The Tickets
+                        <img src="assets/images/svg/state_closed.svg" alt="" />
+                      </span>
+                    </span>
+                  </div>
+                  <div class="capacity">
+                    <div class="capacity_tx">
+                      <img src="assets/images/svg/group.svg" alt="" />
+                      <span>Sold Out</span>
+                    </div>
+                    <button class="buy-btn">
+                      <img src="assets/images/svg/buy-white.svg" alt="" />
+                      Sold Out
+                    </button>
+                  </div>
+                </div>
+                <div class="right-po"></div>
+              </div>
+            </div>
+            <div class="ticket">
+              <a href="#">
+                <div class="ticket-inner">
+                  <div class="time">
+                    <h3>Sunday</h3>
+                    <h4>Jun 24</h4>
+                    <h5>16 : 00</h5>
+                  </div>
+                  <div class="status">
+                    <div class="ticket-status">
+                      <img src="assets/images/svg/ticket-black.svg" alt="" />
+                      <span>
+                        Status :
+                        <span class="normal">
+                          You Can Reserve
+                          <img
+                            src="assets/images/svg/state_active.svg"
+                            alt=""
+                          />
+                        </span>
+                      </span>
+                    </div>
+                    <div class="capacity">
+                      <div class="capacity_tx">
+                        <img src="assets/images/svg/group.svg" alt="" />
+                        <span>Have Inventory</span>
+                      </div>
+                      <button class="buy-btn">
+                        <img src="assets/images/svg/buy-white.svg" alt="" />
+                        Buy Tickets
+                      </button>
+                    </div>
+                  </div>
+                  <div class="right-po"></div>
+                </div>
+              </a>
+            </div>
+            <div class="ticket ticket-soon">
+              <div class="ticket-inner">
+                <div class="time">
+                  <h3>Sunday</h3>
+                  <h4>Jun 24</h4>
+                  <h5>16 : 00</h5>
+                </div>
+                <div class="status">
+                  <div class="ticket-status">
+                    <img src="assets/images/svg/ticket-black.svg" alt="" />
+                    <span>
+                      Status :
+                      <span class="normal">
+                        Comming Soon
+                        <img src="assets/images/svg/state_clock.svg" alt="" />
+                      </span>
+                    </span>
+                  </div>
+                  <div class="capacity">
+                    <div class="capacity_tx">
+                      <img src="assets/images/svg/group.svg" alt="" />
+                      <span>Have Inventory</span>
+                    </div>
+                    <div class="counter-place">
+                      <div class="counter-place_inner">
+                        <div class="hour" id="hour">6</div>
+                        <div class="title">Hour</div>
+                      </div>
+                      <span>:</span>
+                      <div class="counter-place_inner">
+                        <div class="minutes" id="minutes">01</div>
+                        <div class="title">Minutes</div>
+                      </div>
+                      <span>:</span>
+                      <div class="counter-place_inner">
+                        <div class="second" id="second">10</div>
+                        <div class="title">Second</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="right-po"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end change sans modal  -->
+      </div>
+    </section>
+    <!-- start login/register modal -->
+    <div class="user_action-place_back"></div>
+    <div class="user_action-place">
+      <div class="user_action-place-inner">
+        <div class="user_action-place-inner_head">
+          <div class="user_action-place-inner_head_btn">
+            <button class="active">Login With Password</button>
+            <button>Login With Sms</button>
+          </div>
+          <div class="user_action-place-inner_head_register">
+            <button>Register</button>
+          </div>
+        </div>
+        <div class="user_action-place-inner_body">
+          <div class="user_action-place-inner_body-form active" id="lwp">
+            <form action="">
+              <div class="user_action-place-inner_body-form__input">
+                <label for="">Username Or Phone Number :</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="user_action-place-inner_body-form__input">
+                <label for="">Password :</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="submit-btn">
+                <button class="forget">Forget Password Or Username</button>
+                <button type="submit" class="submit">Login</button>
+              </div>
+            </form>
+          </div>
+          <div class="user_action-place-inner_body-form" id="lws">
+            <form action="">
+              <div class="user_action-place-inner_body-form__input">
+                <label for="">Phone Number</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="submit">Login</button>
+              </div>
+            </form>
+          </div>
+          <div class="user_action-place-inner_body-form" id="reg">
+            <form action="">
+              <div class="user_action-place-inner_body-form__input">
+                <label for="">Phone Number</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="submit">Continue</button>
+              </div>
+            </form>
+          </div>
+          <div class="user_action-place-inner_body-form" id="for">
+            <form action="">
+              <div class="user_action-place-inner_body-form__input">
+                <label for="">Username Or Phone Number :</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="submit">Continue</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="exit" id="exitUserAction">✕</div>
+      </div>
+    </div>
+    <!-- end login/register modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javaScript/header.js"></script>
+    <script src="assets/javaScript/userActionBody.js"></script>
+    <script src="assets/javaScript/box.js"></script>
+    <script src="assets/javaScript/single2.js"></script>
+    <script src="assets/javaScript/costrange.js"></script>
+  </body>
+</html>

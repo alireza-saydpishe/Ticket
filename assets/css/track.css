@@ -1,0 +1,84 @@
+.track-main {
+  margin-top: 30px;
+}
+@media screen and (max-width: 575px) {
+  .track-main h5 {
+    margin-bottom: 20px;
+  }
+}
+.track-main .track-form {
+  width: 500px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 575px) {
+  .track-main .track-form {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.track-main .track-form .user-ac {
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.track-main .track-form .user-ac .login-title {
+  font-size: 12px;
+  font-weight: 500;
+}
+.track-main .track-form .user-ac div {
+  margin-top: 25px;
+  text-align: right;
+}
+.track-main .track-form .user-ac div a {
+  background-color: #000000;
+  padding: 15px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.track-main .track-form .user-do p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.9em;
+}
+.track-main .track-form .user-do form {
+  margin-top: 10px;
+}
+.track-main .track-form .user-do form label {
+  position: relative;
+  top: 8px;
+  left: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  font-size: 11px;
+  background-color: #ffffff;
+  padding: 0 3px;
+}
+.track-main .track-form .user-do form input {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 44px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.track-main .track-form .user-do form input:focus {
+  border-color: #000000;
+}
+.track-main .track-form .user-do form div {
+  text-align: right;
+}
+.track-main .track-form .user-do form div button {
+  outline: none;
+  cursor: pointer;
+  background-color: #000000;
+  padding: 15px 60px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+}
